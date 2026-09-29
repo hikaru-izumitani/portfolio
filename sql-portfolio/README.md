@@ -2,6 +2,12 @@
 
 A small SQLite project demonstrating fundamental and intermediate SQL skills through e-commerce data analysis.
 
+## Environment
+
+- SQLite 3.54.0
+- macOS 27.0
+- SQL scripts tested locally
+
 ## Project Structure
 
 ```text
