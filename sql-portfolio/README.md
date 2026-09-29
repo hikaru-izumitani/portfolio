@@ -52,25 +52,25 @@ At this point, the database is ready for analysis.
 ### 4. Run the basic queries
 
 ```bash
-sqlite3 ecommerce.db < sql/01_basic_queries.sql
+sqlite3 ecommerce.db < sql/analysis/01_basic_queries.sql
 ```
 
 ### 5. Run customer analysis
 
 ```bash
-sqlite3 ecommerce.db < sql/02_customer_analysis.sql
+sqlite3 ecommerce.db < sql/analysis/02_customer_analysis.sql
 ```
 
 ### 6. Run sales analysis
 
 ```bash
-sqlite3 ecommerce.db < sql/03_sales_analysis.sql
+sqlite3 ecommerce.db < sql/analysis/03_sales_analysis.sql
 ```
 
 ### 7. Run window function analysis
 
 ```bash
-sqlite3 ecommerce.db < sql/04_window_functions.sql
+sqlite3 ecommerce.db < sql/analysis/04_window_functions.sql
 ```
 
 ## Interactive Mode
