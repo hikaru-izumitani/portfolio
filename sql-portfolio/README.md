@@ -2,11 +2,14 @@
 
 A small SQLite project demonstrating fundamental and intermediate SQL skills through e-commerce data analysis.
 
-## Environment
+## Tested Environments
 
-- SQLite 3.54.0
+The SQL scripts were tested successfully in the following environments:
+
 - macOS 27.0
-- SQL scripts tested locally
+  - SQLite 3.54.0
+- Ubuntu 26.04.1 LTS on AWS EC2
+  - SQLite 3.46.1
 
 ## Project Structure
 
@@ -23,6 +26,17 @@ sql-ecommerce-analysis/
 └── README.md
 ```
 
+## Requirements
+
+- SQLite 3
+- Terminal / Command Line
+
+SQLite is included by default on macOS.
+On Ubuntu, install it with:
+```bash
+sudo apt update
+sudo apt install sqlite3
+```
 ## Requirements
 
 * SQLite 3
