@@ -37,10 +37,7 @@ On Ubuntu, install it with:
 sudo apt update
 sudo apt install sqlite3
 ```
-## Requirements
 
-* SQLite 3
-* Terminal / Command Line
 
 ## How to Run
 
