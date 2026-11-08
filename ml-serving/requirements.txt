@@ -1,0 +1,9 @@
+flask
+Flask-SQLAlchemy
+pytest
+mlflow
+numpy
+pandas
+scikit-learn
+shap
+umap-learn
